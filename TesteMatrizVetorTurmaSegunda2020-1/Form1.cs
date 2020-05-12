@@ -37,7 +37,6 @@ namespace TesteMatrizVetorTurmaSegunda2020_1
                 j++;
             }
         }
-
         private void btnVetorFor_Click(object sender, EventArgs e)
         {
             // limpando o listBox
