@@ -52,6 +52,7 @@
             this.btnMatriz.TabIndex = 3;
             this.btnMatriz.Text = "Matriz";
             this.btnMatriz.UseVisualStyleBackColor = true;
+            this.btnMatriz.Click += new System.EventHandler(this.btnMatriz_Click);
             // 
             // lstMatriz
             // 
@@ -59,7 +60,7 @@
             this.lstMatriz.ItemHeight = 16;
             this.lstMatriz.Location = new System.Drawing.Point(210, 52);
             this.lstMatriz.Name = "lstMatriz";
-            this.lstMatriz.Size = new System.Drawing.Size(120, 196);
+            this.lstMatriz.Size = new System.Drawing.Size(311, 196);
             this.lstMatriz.TabIndex = 2;
             // 
             // btnVetor
@@ -86,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 343);
+            this.ClientSize = new System.Drawing.Size(553, 343);
             this.Controls.Add(this.btnVetorFor);
             this.Controls.Add(this.btnMatriz);
             this.Controls.Add(this.lstMatriz);
