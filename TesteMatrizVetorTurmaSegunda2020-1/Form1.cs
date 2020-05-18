@@ -87,8 +87,8 @@ namespace TesteMatrizVetorTurmaSegunda2020_1
                 for (int j = 0; j < 2; j++)  //percorre as colunas
                 {
                     // Escrever os elementos na listbox
-                    lstTransposta.Items.Add("Elemento [" + (j + 1) +
-                                        " , " + (i + 1) + "] = " + nomes[j, i]);
+                    lstTransposta.Items.Add("Elemento [" + (i + 1) +
+                                        " , " + (j + 1) + "] = " + nomes[j, i]);
 
                 }
             }
